@@ -1,0 +1,61 @@
+# ================================
+# Disaster Tweets NLP - Dependencies
+# ================================
+# Python >= 3.8
+# Last updated: 2025-10-29
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers & NLP
+transformers>=4.30.0
+datasets>=2.12.0
+evaluate>=0.4.0
+accelerate>=0.20.0
+tokenizers>=0.13.0
+
+# Gradient Boosting
+lightgbm>=4.0.0
+xgboost>=2.0.0
+
+# Machine Learning & Feature Extraction
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# NLP Tools
+nltk>=3.8.0
+textblob>=0.17.0
+langdetect>=1.0.9
+unidecode>=1.3.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Jupyter Support
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.23.0
+ipywidgets>=8.0.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: Performance Enhancement
+# sentencepiece>=0.1.99  # For some tokenizers
+# emoji>=2.0.0           # For emoji processing
+
+# Development Tools (Optional)
+# pytest>=7.3.0
+# black>=23.3.0
+# flake8>=6.0.0
+# mypy>=1.3.0
+
